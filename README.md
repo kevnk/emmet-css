@@ -9,6 +9,8 @@ d:n → display: none;
 .d-n { display: none; }
 ```
 
+Currently using emmet 1.3.1. View [emmet docs](http://docs.emmet.io/).
+
 ## Purpose
 To have a set of abbreviated utility classes for quick, easy, and communicative styling with classnames. Thanks to [emmet][1], we have a standardized set of abbreviations for every css property and value known to man (ok, maybe not 100%, but close).
 
