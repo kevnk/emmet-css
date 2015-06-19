@@ -1,0 +1,20 @@
+/* =================================================
+ * Box Sizing
+ */
+.bxz     { box-sizing: border-box; }
+.bxz-cb  { box-sizing: content-box; }
+.bxz-bb  { box-sizing: border-box; }
+.bxsh    { box-shadow: @bxsh-default; }
+.bxsh-r  { box-shadow: @bxsh-r-default; }
+.bxsh-ra { box-shadow: @bxsh-ra-default; }
+.bxsh-n  { box-shadow: none; }
+.w when (@defaults-on = true) { width: @width-default; }
+.w-a     { width: auto; }
+.h when (@defaults-on = true) { height: @height-default; }
+.h-a     { height: auto; }
+.maw when (@defaults-on = true) { max-width: @max-width-default; }
+.maw-n   { max-width: none; }
+.mah when (@defaults-on = true) { max-height: @max-height-default; }
+.mah-n   { max-height: none; }
+.miw when (@defaults-on = true) { min-width: @min-width-default; }
+.mih when (@defaults-on = true) { min-height: @min-height-default; }

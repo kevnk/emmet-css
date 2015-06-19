@@ -1,0 +1,70 @@
+/* =================================================
+ * Fonts
+ */
+.f when (@defaults-on = true)
+         { font: @font-default; }
+// .f+   { font: 1em Arial,sans-serif; }
+.fw when (@defaults-on = true)
+         { font-weight: @font-weight-default; }
+.fw-n    { font-weight: normal; }
+.fw-b    { font-weight: bold; }
+.fw-br   { font-weight: bolder; }
+.fw-lr   { font-weight: lighter; }
+.fs      { font-style: italic; }
+.fs-n    { font-style: normal; }
+.fs-i    { font-style: italic; }
+.fs-o    { font-style: oblique; }
+.fv when (@defaults-on = true)
+         { font-variant: @font-variant-default; }
+.fv-n    { font-variant: normal; }
+.fv-sc   { font-variant: small-caps; }
+.fz when (@defaults-on = true)
+         { font-size: @font-size-default; }
+.fza when (@defaults-on = true)
+         { font-size-adjust: @font-size-adjust-default; }
+.fza-n   { font-size-adjust: none; }
+.ff when (@defaults-on = true)
+         { font-family: @font-family-default; }
+.ff-s    { font-family: serif; }
+.ff-ss   { font-family: sans-serif; }
+.ff-c    { font-family: cursive; }
+.ff-f    { font-family: fantasy; }
+.ff-m    { font-family: monospace; }
+.ff-a    { font-family:  Arial, "Helvetica Neue", Helvetica, sans-serif; }
+.ff-t    { font-family:  "Times New Roman", Times, Baskerville, Georgia, serif; }
+.ff-v    { font-family:  Verdana, Geneva, sans-serif; }
+.fef when (@defaults-on = true)
+         { font-effect: @font-effect-default; }
+.fef-n   { font-effect: none; }
+.fef-eg  { font-effect: engrave; }
+.fef-eb  { font-effect: emboss; }
+.fef-o   { font-effect: outline; }
+.fem when (@defaults-on = true)
+         { font-emphasize: @font-emphasize-default; }
+.femp when (@defaults-on = true)
+         { font-emphasize-position: @font-emphasize-position-default; }
+.femp-b  { font-emphasize-position: before; }
+.femp-a  { font-emphasize-position: after; }
+.fems when (@defaults-on = true)
+         { font-emphasize-style: @font-emphasize-style-default; }
+.fems-n  { font-emphasize-style: none; }
+.fems-ac { font-emphasize-style: accent; }
+.fems-dt { font-emphasize-style: dot; }
+.fems-c  { font-emphasize-style: circle; }
+.fems-ds { font-emphasize-style: disc; }
+.fsm when (@defaults-on = true)
+         { font-smooth: @font-smooth-default; }
+.fsm-a   { font-smooth: auto; }
+.fsm-n   { font-smooth: never; }
+.fsm-aw  { font-smooth: always; }
+.fst when (@defaults-on = true)
+         { font-stretch: @font-stretch-default; }
+.fst-n   { font-stretch: normal; }
+.fst-uc  { font-stretch: ultra-condensed; }
+.fst-ec  { font-stretch: extra-condensed; }
+.fst-c   { font-stretch: condensed; }
+.fst-sc  { font-stretch: semi-condensed; }
+.fst-se  { font-stretch: semi-expanded; }
+.fst-e   { font-stretch: expanded; }
+.fst-ee  { font-stretch: extra-expanded; }
+.fst-ue  { font-stretch: ultra-expanded; }
