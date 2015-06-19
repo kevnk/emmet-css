@@ -1,7 +1,6 @@
 /* =================================================
  * Type
  */
-.va      { vertical-align: top; }
 .va-sup  { vertical-align: super; }
 .va-t    { vertical-align: top; }
 .va-tt   { vertical-align: text-top; }
@@ -10,22 +9,20 @@
 .va-b    { vertical-align: bottom; }
 .va-tb   { vertical-align: text-bottom; }
 .va-sub  { vertical-align: sub; }
-.ta      { text-align: left; }
 .ta-l    { text-align: left; }
 .ta-c    { text-align: center; }
 .ta-r    { text-align: right; }
 .ta-j    { text-align: justify; }
-.ta-lst when (@defaults-on = true) { text-align-last: @text-align-last-default; }
+// .ta-lst  { text-align-last: ; }
 .tal-a   { text-align-last: auto; }
 .tal-l   { text-align-last: left; }
 .tal-c   { text-align-last: center; }
 .tal-r   { text-align-last: right; }
-.td      { text-decoration: none; }
 .td-n    { text-decoration: none; }
 .td-u    { text-decoration: underline; }
 .td-o    { text-decoration: overline; }
 .td-l    { text-decoration: line-through; }
-.te when (@defaults-on = true) { text-emphasis: @text-emphasis-default; }
+// .te      { text-emphasis: ; }
 .te-n    { text-emphasis: none; }
 .te-ac   { text-emphasis: accent; }
 .te-dt   { text-emphasis: dot; }
@@ -33,14 +30,14 @@
 .te-ds   { text-emphasis: disc; }
 .te-b    { text-emphasis: before; }
 .te-a    { text-emphasis: after; }
-.th when (@defaults-on = true) { text-height: @text-height-default; }
+// .th      { text-height: ; }
 .th-a    { text-height: auto; }
 .th-f    { text-height: font-size; }
 .th-t    { text-height: text-size; }
 .th-m    { text-height: max-size; }
-.ti when (@defaults-on = true) { text-indent: @text-indent-default; }
-.ti-     { text-indent: -9999px; }
-.tj when (@defaults-on = true) { text-justify: @text-justify-default; }
+// .ti      { text-indent: ; }
+.ti--    { text-indent: -9999px; }
+// .tj      { text-justify: ; }
 .tj-a    { text-justify: auto; }
 .tj-iw   { text-justify: inter-word; }
 .tj-ii   { text-justify: inter-ideograph; }
@@ -48,47 +45,41 @@
 .tj-d    { text-justify: distribute; }
 .tj-k    { text-justify: kashida; }
 .tj-t    { text-justify: tibetan; }
-.to when (@defaults-on = true) { text-outline: @text-outline-default; }
-// .to+  { text-outline: 0 0 #000; }
+// .to      { text-outline: ; }
 .to-n    { text-outline: none; }
-.tr when (@defaults-on = true) { text-replace: @text-replace-default; }
+// .tr      { text-replace: ; }
 .tr-n    { text-replace: none; }
-.tt      { text-transform: uppercase; }
 .tt-n    { text-transform: none; }
 .tt-c    { text-transform: capitalize; }
 .tt-u    { text-transform: uppercase; }
 .tt-l    { text-transform: lowercase; }
-.tw when (@defaults-on = true) { text-wrap: @text-wrap-default; }
+// .tw      { text-wrap: ; }
 .tw-n    { text-wrap: normal; }
 .tw-no   { text-wrap: none; }
 .tw-u    { text-wrap: unrestricted; }
 .tw-s    { text-wrap: suppress; }
-.tsh     { text-shadow: hoff voff blur #000; }
-.tsh-r   { text-shadow: h v blur rgb(0, 0, 0); }
-.tsh-ra  { text-shadow: h v blur rgba(0, 0, 0, .5); }
-// .tsh+ { text-shadow: 0 0 0 #000; }
 .tsh-n   { text-shadow: none; }
-.lh when (@defaults-on = true) { line-height: @line-height-default; }
-.lts when (@defaults-on = true) { letter-spacing: @letter-spacing-default; }
-.lts-n  { letter-spacing: normal; }
-.whs when (@defaults-on = true) { white-space: @white-space-default; }
+// .lh      { line-height: ; }
+// .lts     { letter-spacing: ; }
+.lts-n   { letter-spacing: normal; }
+// .whs     { white-space: ; }
 .whs-n   { white-space: normal; }
 .whs-p   { white-space: pre; }
 .whs-nw  { white-space: nowrap; }
 .whs-pw  { white-space: pre-wrap; }
 .whs-pl  { white-space: pre-line; }
-.whsc when (@defaults-on = true) { white-space-collapse: @white-space-collapse-default; }
+// .whsc    { white-space-collapse: ; }
 .whsc-n  { white-space-collapse: normal; }
 .whsc-k  { white-space-collapse: keep-all; }
 .whsc-l  { white-space-collapse: loose; }
 .whsc-bs { white-space-collapse: break-strict; }
 .whsc-ba { white-space-collapse: break-all; }
-.wob when (@defaults-on = true) { word-break: @word-break-default; }
+// .wob     { word-break: ; }
 .wob-n   { word-break: normal; }
 .wob-k   { word-break: keep-all; }
 .wob-ba  { word-break: break-all; }
-.wos when (@defaults-on = true) { word-spacing: @word-spacing-default; }
-.wow when (@defaults-on = true) { word-wrap: @word-wrap-default; }
+// .wos     { word-spacing: ; }
+// .wow     { word-wrap: ; }
 .wow-nm  { word-wrap: normal; }
 .wow-n   { word-wrap: none; }
 .wow-u   { word-wrap: unrestricted; }
