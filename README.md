@@ -5,6 +5,7 @@ A boilerplate utility stylesheet using [emmet][1] abbreviations as classnames.
 ```
 // emmet abbreviation
 d:n → display: none;
+
 // CSS class (all `:` are replaced with `-`) 
 .d-n { display: none; }
 ```
