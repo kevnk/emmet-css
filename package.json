@@ -2,7 +2,7 @@
   "name": "emmet-css",
   "version": "1.0.0",
   "description": "A boilerplate utility stylesheet using emmet abbreviations as classnames",
-  "main": "emmet.css",
+  "main": "dist/css/emmet.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
